@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js" type="text/javascript"></script>
+
+	<head>
+	<script src="script.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<title>Angular JS Calculator</title>
+	<script>
+
+	</script>
+	</head>
+	<body>
+
+	<div class="container">
+		<div ng-app="myApp" ng-controller="myCtrl">
+		
+			<div class="jumbotron text-center">
+				<h1>Angular JS Calculator</h1>
+			</div>
+
+			<label for="num1">Enter the First Number</label>
+			<input class="form-control"  type="text" id="num1" name="num1" ng-model="num1" />
+
+			<br/><br/>
+
+			<label for="num2">Enter the Second Number</label>
+			<input class="form-control"  type="text" id="num2" name="num2"  ng-model="num2" />
+
+			<br/><br/>
+			
+			
+			<input class="btn btn-primary" type="button" value="Sum" ng-click="sum(num1,num2)" />
+			<input class="btn btn-primary" type="button" value="Sub" ng-click="sub(num1,num2)" />
+			<input class="btn btn-primary" type="button" value="Mul" ng-click="mul(num1,num2)" />
+			<input class="btn btn-primary" type="button" value="Div" ng-click="div(num1,num2)" />
+
+			<br/><br/>
+			
+			<label for="res">Result</label>
+			<input class="form-control"  type="text" id="res" name="res"   ng-model="addition" />
+
+		</div>
+	</div>
+	</body>
+</html>
