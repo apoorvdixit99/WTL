@@ -1,0 +1,98 @@
+:root {
+    --bgcolor: #ffffff;
+    --txtcolor: #000000;
+    --accentcolor: #003366;
+    --textfieldcolor: #f0f0f0;
+    --hyperlinkcolor: #00b7f0;
+
+    --fav1: #1B242D;
+    --fav3: #4BA5AC;
+}
+body {
+    background-color : var(--bgcolor);
+    color : var(--txtcolor);
+    font-family: "Times New Roman";
+}
+header {
+    background-color : var(--accentcolor);
+    color : var(--bgcolor);
+    padding: 5px 0px 5px 0px;
+    width:100%;
+}
+footer {
+    background-color : var(--accentcolor);
+    color : var(--bgcolor);
+    padding: 15px 0px 5px 0px;
+    width:100%;
+    text-align: center;
+}
+h1,h2 {
+    text-align: center;
+    color: var(--bgcolor);
+}
+h3 {
+    text-align: center;
+    color: var(--accentcolor);
+}
+hr {
+    color: var(--txtcolor);
+}
+.btn {
+    text-align: center;
+}
+input {
+    padding: 5px 0px 5px 5px;
+    background-color: var(--textfieldcolor);
+    color: var(--txtcolor);
+    width: 264px;
+}
+#countrycode {
+    padding: 5px 0px 5px 0px;
+    width: 40px;
+    text-align: center;
+}
+#phonenumber {
+    width: 216px;
+}
+#address {
+    height:100px;
+}
+.button {
+    padding: 5px 0px 5px 0px;
+    color: var(--bgcolor);
+    background-color: var(--accentcolor);
+}
+#dbutton {
+    padding: 5px 0px 5px 0px;
+    color: #ffffff;
+    background-color: #bb0000;
+}
+textarea {
+    background-color: var(--textfieldcolor);
+    font-family: "Times New Roman";
+}
+a {
+	color: var(--hyperlinkcolor);
+	text-decoration: none;
+}
+td {
+	text-align: right;
+}
+table.form3 {
+	table-layout: fixed ;
+	width: 60% ;
+}
+table.form3 td{
+	text-align: left;
+} 
+table.form3 th {
+	text-align: left;
+	font-size: 18px;
+} 
+
+.securityquestions {
+    width:275px;
+}
+input[type="radio"] {
+  margin-right: 0;
+}

@@ -1,0 +1,42 @@
+:root {
+	--bgcolor: maroon;
+	--txtcolor: orange;
+	--accentcolor: orange;
+}
+body {
+	background-color : var(--bgcolor);
+	color : var(--txtcolor);
+}
+header {
+	background-color : var(--accentcolor);
+	color : var(--bgcolor);
+	padding: 5px 0px 5px 0px;
+	width:100%;
+}
+footer {
+	background-color : var(--accentcolor);
+	color : var(--bgcolor);
+	padding: 5px 0px 5px 0px;
+	width:100%;
+}
+h1,h2 {
+	text-align: center;
+	color: var(--bgcolor);
+}
+hr {
+	color: var(--accentcolor);
+}
+#signup {
+	text-align: center;
+}
+input {
+	padding: 5px 0px 4px 0px;
+	background-color: var(--bgcolor);
+	color: var(--txtcolor);
+}
+#signupbutton {
+	padding: 5px 0px 5px 0px;
+	color: var(--bgcolor);
+	background-color: var(--accentcolor);
+	width: 30%;
+}

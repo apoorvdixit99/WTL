@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sign Up</title>
+		<link rel="stylesheet" href="style00.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Leave Management System</h1>
+			<h2>Sign Up</h2>
+		</header>
+		<br>
+
+		<section id="main">
+			<form>
+				<table border="0px" align="center">
+					<tr>
+						<td>First Name: </td>
+						<td><input type="text" id="firstname" placeholder="Enter the First Name" size="25" required></td>
+					</tr>
+					<tr>
+						<td>Middle Name: </td>
+						<td><input type="text" id="middlename" placeholder="Enter the Middle Name (Optional)" size="25" ></td>
+					</tr>
+					<tr>
+						<td>Last Name: </td>
+						<td><input type="text" id="lastname" placeholder="Enter the Last Name" size="25"  required></td>
+					</tr>
+					<tr>
+						<td>Email Address: </td>
+						<td><input type="email" id="emailid" placeholder="Enter the Email ID" size="25"  required></td>
+					</tr>
+					<tr>
+						<td>Phone Number: </td>
+						<td>
+							<input type="text" id="countrycode" value="+91" size="3" readonly>
+							<input type="text" id="phonenumber" placeholder="Enter the Phone Number" 
+								size="19" required maxlength="10">
+						</td>
+					</tr>
+					<tr>
+						<td>Registration ID: </td>
+						<td><input type="text" id="regid" placeholder="Enter the Registration ID" size="25"  required></td>
+					</tr>
+					<tr>
+						<td>Password: </td>
+						<td><input type="password" id="pass" placeholder="Enter the Password" size="25"  required></td>
+					</tr>
+					<tr>
+						<td>Password (again): </td>
+						<td><input type="password" id="pass2" placeholder="Enter the Password Again" size="25"  required></td>
+					</tr>
+					<tr>
+						<td>Designation: </td>
+						<td>
+							<select>
+								<optgroup label="Designation">
+									<option value="student">Student</option>
+									<option value="teacher">Teacher</option>
+									<option value="hod">HOD</option>
+								</optgroup>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<br>
+			
+				<section id="signup">
+					<input type="submit" id="signupbutton" value="Sign Up!">
+				</section>
+				<br>
+			</form>
+		</section>
+
+		<footer>
+			<div>
+				<p>Contact<p>
+			<div>
+		</footer>
+
+	</body>
+</html>
